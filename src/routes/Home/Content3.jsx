@@ -16,12 +16,12 @@ class Content extends React.Component {
     delete props.isMode;
     const oneAnim = { y: '+=30', opacity: 0, type: 'from', ease: 'easeOutQuad' };
     const blockArray = [
-      { icon: 'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png', title: 'Lokasjonsanalyse', content: '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png', title: 'Lokasjonsanalyse', content: 'Sammenstille egne og eksterne data, og visualisere analysene i kart.' },
       { icon: 'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png', title: 'Sentimentanalyse', content: '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。' },
-      { icon: 'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png', title: 'Skjermskraping', content: '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。' },
-      { icon: 'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png', title: 'Programvareutvikling', content: '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。' },
-      { icon: 'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png', title: 'Mobilapplikasjoner', content: '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。' },
-      { icon: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: 'E-læring', content: '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png', title: 'Skjermskraping', content: 'Kopiere tekst og bilder fra eksterne enheter for å ekstrahere informasjon' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png', title: 'Programvareutvikling', content: 'Bistand til en løsning der georeferert data spiller en sentral rolle' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png', title: 'Mobilapplikasjoner', content: 'Utvikling av geo-baserte mobilapplikasjoner' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: 'E-læring', content: 'Relevante kurs og opplæringsvideoer som du kan ta/se hvor og når du vil.' },
     ];
     const children = blockArray.map((item, i) => {
       const id = `block${i}`;
