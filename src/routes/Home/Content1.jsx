@@ -46,10 +46,10 @@ class Content extends React.Component {
             id={`${props.id}-textWrapper`}
           >
             <h1 key="h1" id={`${props.id}-title`}>
-              企业资源管理
+              Geoprogramvare
             </h1>
             <p key="p" id={`${props.id}-content`}>
-              云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
+              Det du trenger for å organisere og analysere informasjon i kart.
             </p>
           </QueueAnim>
         </OverPack>

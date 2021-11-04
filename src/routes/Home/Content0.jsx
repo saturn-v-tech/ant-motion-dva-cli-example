@@ -32,10 +32,10 @@ class Content extends React.Component {
             key="content"
             id={`${props.id}-content`}
           >
-            一个高效的页面动画解决方案
+            Løs fremtidens utfordringer med geografisk data og teknologi
           </p>
           <Button type="ghost" key="button" id={`${props.id}-button`}>
-            Learn More
+            Les mer
           </Button>
         </QueueAnim>
         <TweenOne

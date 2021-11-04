@@ -36,10 +36,10 @@ class Content extends React.Component {
             id={`${props.id}-textWrapper`}
           >
             <h1 key="h1" id={`${props.id}-title`}>
-              分布式中间件
+              Kart og data
             </h1>
             <p key="p" id={`${props.id}-content`}>
-              金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。
+              Kart, data og tjenester som gjør dine løsninger og tjenester bedre.
             </p>
           </QueueAnim>
           <TweenOne
