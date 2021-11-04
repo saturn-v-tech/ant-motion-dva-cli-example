@@ -26,7 +26,7 @@ class Content extends React.Component {
             key="title"
             id={`${props.id}-title`}
           >
-            <img width="100%" src="./assets/yay.jpg" />
+            <img width="100%" src="https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png" />
           </span>
           <p
             key="content"
