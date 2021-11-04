@@ -21,7 +21,7 @@ class Content extends React.Component {
       { icon: 'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png', title: 'Skjermskraping', content: '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。' },
       { icon: 'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png', title: 'Programvareutvikling', content: '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。' },
       { icon: 'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png', title: 'Mobilapplikasjoner', content: '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。' },
-      { icon: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: 'Geodata E-læring', content: '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。' },
+      { icon: 'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png', title: 'E-læring', content: '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。' },
     ];
     const children = blockArray.map((item, i) => {
       const id = `block${i}`;
