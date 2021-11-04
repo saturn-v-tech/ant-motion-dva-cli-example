@@ -22,7 +22,7 @@ class Header extends React.Component {
     const props = { ...this.props };
     const isMode = props.isMode;
     delete props.isMode;
-    const navData = { menu1: '导航一', menu2: '导航二', menu3: '导航三', menu4: '导航四' };;
+    const navData = { menu1: 'HJEM'};;
     const navChildren = Object.keys(navData)
       .map((key, i) => (<Item key={i}>{navData[key]}</Item>));
     return (<TweenOne

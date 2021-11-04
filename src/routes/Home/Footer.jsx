@@ -21,7 +21,7 @@ class Footer extends React.Component {
         key="footer"
       >
         <span id={`${props.id}-content`}>
-          Copyright © 2017 The Project by <a href="#">Ant Motion</a>. All Rights Reserved
+          Copyright © 2021 The Project by <a href="#">EI Solutions</a>. Alle rettigheter bevart
         </span>
       </TweenOne>
     </OverPack>);
