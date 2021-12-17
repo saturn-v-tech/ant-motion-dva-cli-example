@@ -26,13 +26,12 @@ class Content extends React.Component {
             key="title"
             id={`${props.id}-title`}
           >
-            <img width="100%" src="https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png" />
+            <img alt="logo n slogan" width="150%" src="assets/ei4.png" />
           </span>
           <p
             key="content"
             id={`${props.id}-content`}
           >
-            Løs fremtidens utfordringer med geografisk data og teknologi
           </p>
           <Button type="ghost" key="button" id={`${props.id}-button`}>
             Les mer

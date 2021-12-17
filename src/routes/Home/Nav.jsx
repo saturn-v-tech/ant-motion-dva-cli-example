@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { PropTypes } from 'react';
 import TweenOne from 'rc-tween-one';
 import { Menu } from 'antd';
@@ -22,7 +23,7 @@ class Header extends React.Component {
     const props = { ...this.props };
     const isMode = props.isMode;
     delete props.isMode;
-    const navData = { menu1: 'HJEM'};;
+    const navData = { menu1: 'HJEM', menu2: 'OM OSS', menu3: 'KONTAKT OSS' };
     const navChildren = Object.keys(navData)
       .map((key, i) => (<Item key={i}>{navData[key]}</Item>));
     return (<TweenOne
@@ -35,7 +36,7 @@ class Header extends React.Component {
         animation={{ x: -30, type: 'from', ease: 'easeOutQuad' }}
         id={`${this.props.id}-logo`}
       >
-        <img width="100%" src="./assets/yay.jpg" />
+        <img width="100%" src="./assets/ei4.png" alt="logo" />
       </TweenOne>
       {isMode ? (<div
         className={`${this.props.className}-phone-nav${this.state.phoneOpen ? ' open' : ''}`}

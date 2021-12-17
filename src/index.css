@@ -3,3 +3,11 @@ html, body, :global(#root) {
   height: 100%;
 }
 
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 150%;
+  }

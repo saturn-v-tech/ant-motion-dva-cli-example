@@ -1,3 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable jsx-a11y/img-has-alt */
+/* eslint-disable linebreak-style */
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
@@ -36,10 +39,10 @@ class Content extends React.Component {
             id={`${props.id}-textWrapper`}
           >
             <h1 key="h1" id={`${props.id}-title`}>
-              Kart og data
+              Støttet av ClimAccelerator
             </h1>
             <p key="p" id={`${props.id}-content`}>
-              Kart, data og tjenester som gjør dine løsninger og tjenester bedre.
+              EIT CLIMATE KIC, co-finansiert av den Europeiske Union.
             </p>
           </QueueAnim>
           <TweenOne
@@ -50,7 +53,7 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png" />
+              <img width="150%" src="assets/CKIC.png" />
             </span>
           </TweenOne>
         </OverPack>
