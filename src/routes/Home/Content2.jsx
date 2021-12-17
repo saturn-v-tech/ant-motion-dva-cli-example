@@ -1,6 +1,4 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/img-has-alt */
-/* eslint-disable linebreak-style */
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';

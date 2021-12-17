@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { PropTypes } from 'react';
 import { Button, Icon } from 'antd';
 import QueueAnim from 'rc-queue-anim';
@@ -31,8 +32,7 @@ class Content extends React.Component {
           <p
             key="content"
             id={`${props.id}-content`}
-          >
-          </p>
+           />
           <Button type="ghost" key="button" id={`${props.id}-button`}>
             Les mer
           </Button>
